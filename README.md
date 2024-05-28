@@ -3,33 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2 {
-            color: #007bff;
-        }
-        pre {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        code {
-            background: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
 </head>
 <body>
 
@@ -42,10 +15,6 @@
     <li><strong>Transaction Form:</strong> Submit transactions to transfer money between users.</li>
     <li><strong>Proof-of-Work:</strong> Simple proof-of-work mechanism to validate new blocks.</li>
 </ul>
-
-<h2>Screenshots</h2>
-<p><img src="screenshots/home_page.png" alt="Home Page"><br><em>Home page showing the blockchain</em></p>
-<p><img src="screenshots/transaction_form.png" alt="Transaction Form"><br><em>Transaction form for submitting new transactions</em></p>
 
 <h2>Installation</h2>
 
@@ -63,7 +32,7 @@ cd blockchain-money-transfer</code></pre>
     </li>
     <li><strong>Create a virtual environment and activate it:</strong>
         <pre><code>python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code></pre>
+source venv/bin/activate  # On Windows use venv\Scripts\activate</code></pre>
     </li>
     <li><strong>Install the required packages:</strong>
         <pre><code>pip install Flask</code></pre>
